@@ -35,6 +35,19 @@ const App = () => {
       <Route path="/movies/:id">
         <Movie addToSavedList={addToSavedList} />
       </Route>
+
+      <Route path='/update-movies/:id'>
+
+      </Route>
+
+      <Route path='/movies/'>
+        
+      </Route>
+
+      <Route path='add-movie'>
+
+      </Route>
+
     </>
   );
 };
